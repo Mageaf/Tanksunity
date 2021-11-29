@@ -106,6 +106,7 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:CROSS_PLATFORM_INPUT
 -define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -313,6 +314,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Postprocessing.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Postprocessing.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.ProGrids.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.ProGrids.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.ref.dll"
@@ -342,14 +345,23 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
+"Assets/AddEffects.cs"
+"Assets/EffectExamples/Misc Effects/Scripts/SpawnEffect.cs"
+"Assets/RandomPowerUp.cs"
 "Assets/Scripts/Camera/CameraControl.cs"
 "Assets/Scripts/Managers/TankManager.cs"
 "Assets/Scripts/Playgame.cs"
+"Assets/Scripts/PowerUp.cs"
 "Assets/Scripts/Shell/ShellExplosion.cs"
 "Assets/Scripts/Tank/TankHealth.cs"
 "Assets/Scripts/Tank/TankMovement.cs"
 "Assets/Scripts/Tank/TankShooting.cs"
 "Assets/Scripts/UI/UIDirectionControl.cs"
+"Assets/Shared/Ramps/Runtime/RampAsset.cs"
+"Assets/Shared/Scripts/AdjustTimeScale.cs"
+"Assets/Shared/Scripts/ProximityActivate.cs"
+"Assets/Shared/Scripts/SimpleCameraController.cs"
+"Assets/Shared/Scripts/SimpleCharacterMotor.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 "Assets/_Completed-Assets/Scripts/Camera/CameraControl.cs"
 "Assets/_Completed-Assets/Scripts/Managers/GameManager.cs"
